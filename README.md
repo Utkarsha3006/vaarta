@@ -9,3 +9,8 @@ The features include:
 * Screen share in 3 modes.
 * Chat feature with bot.
 * Collaborative whiteboard.
+
+Upcoming features:
+* Meeting recording.
+* File-sharing.
+* Chat with participants before and after meeting.
