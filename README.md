@@ -14,3 +14,4 @@ Upcoming features:
 * Meeting recording.
 * File-sharing.
 * Chat with participants before and after meeting.
+* Compatibility with all devices.
