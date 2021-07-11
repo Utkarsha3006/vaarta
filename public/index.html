@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Vaarta -Real-time Video Call & Chat</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://kit.fontawesome.com/6510466b6c.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body id="particles-js">
+  <navbar>
+    <div id="content">
+      <img src="https://i.postimg.cc/nzpzLcTh/VAARTA-1-removebg-preview.png" class="ribbon" />
+    </div>
+  </navbar>
+  <!-- <div class="landing"> -->
+  <!-- <div class="head-cont unselectable">
+            Welcome to Vaarta!
+        </div> -->
+
+
+  <div class="main" >
+    <div class="create-join">
+      <div class="text">
+        <div class="head">Premium video meetings for free.</div>
+        <div class="subtext">No sign-up required. Start your meeting now!</div>
+      </div>
+      <button id="createroom" class="createroom-butt unselectable">Create Room</button><br>
+      <input type="text" name="room" spellcheck="false" placeholder="Enter Room Code" id="roomcode"
+        class="roomcode"><br>
+      <div class="joinroom unselectable" id="joinroom">Join Room</div>
+    </div>
+    <div class="video-cont">
+      <video class="video-self" autoplay muted playsinline></video>
+      <div class="settings">
+        <div class="device" id="mic"><i class="fas fa-microphone"></i></div>
+        <div class="device" id="webcam"><i class="fas fa-video"></i></div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- <div class="main-cont">
+
+            <form class="roomform" action="room.html" method="GET">
+                <div class="formcont">
+                    <input type="text" name="name" placeholder="Enter your name" id="username" class="inputtext"><br>
+                    
+                    <button type="submit" class="butt unselectable" id="joinroom">Join Room</button>
+                    
+                </div>
+            </form>
+
+        </div> -->
+
+  <!-- </div> -->
+
+
+
+
+  <script src="js/landing.js"></script>
+  <script src="particles.js"></script>
+  <script>
+    particlesJS("particles-js", {
+      "particles": {
+        "number": {
+          "value": 40,
+          "density": {
+            "enable": true,
+            "value_area": 700
+          }
+        },
+        "color": {
+          "value": "#ffffff"
+        },
+        "shape": {
+          "type": "circle",
+          "stroke": {
+            "width": 0,
+            "color": "#000000"
+          },
+          "polygon": {
+            "nb_sides": 5
+          },
+        },
+        "opacity": {
+          "value": 0.5,
+          "random": false,
+          "anim": {
+            "enable": false,
+            "speed": 0.1,
+            "opacity_min": 0.1,
+            "sync": false
+          }
+        },
+        "size": {
+          "value": 3,
+          "random": true,
+          "anim": {
+            "enable": false,
+            "speed": 10,
+            "size_min": 0.1,
+            "sync": false
+          }
+        },
+        "line_linked": {
+          "enable": true,
+          "distance": 150,
+          "color": "#ffffff",
+          "opacity": 0.4,
+          "width": 1
+        },
+        "move": {
+          "enable": true,
+          "speed": 2,
+          "direction": "none",
+          "random": false,
+          "straight": false,
+          "out_mode": "out",
+          "bounce": false,
+          "attract": {
+            "enable": false,
+            "rotateX": 600,
+            "rotateY": 1200
+          }
+        }
+      },
+      "interactivity": {
+        "detect_on": "canvas",
+        "events": {
+          "onhover": {
+            "enable": true,
+            "mode": "grab"
+          },
+          "onclick": {
+            "enable": true,
+            "mode": "push"
+          },
+          "resize": true
+        },
+        "modes": {
+          "grab": {
+            "distance": 140,
+            "line_linked": {
+              "opacity": 1
+            }
+          },
+          "bubble": {
+            "distance": 400,
+            "size": 40,
+            "duration": 2,
+            "opacity": 8,
+            "speed": 3
+          },
+          "repulse": {
+            "distance": 200,
+            "duration": 0.4
+          },
+          "push": {
+            "particles_nb": 4
+          },
+          "remove": {
+            "particles_nb": 2
+          }
+        }
+      },
+      "retina_detect": true
+    });
+  </script>
+
+</body>
+
+</html>
