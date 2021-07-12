@@ -14,4 +14,6 @@ Upcoming features:
 * Meeting recording.
 * File-sharing.
 * Chat with participants before and after meeting.
-* Compatibility with all devices.
+* Gesture detection for basic operations inside the meeting.
+* Automatic attendance generation using face-detection.
+
